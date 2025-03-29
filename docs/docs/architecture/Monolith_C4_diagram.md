@@ -1,0 +1,21 @@
+```puml
+@startuml
+actor User as "Пользователь"
+component Sensor as "Датчик температуры"
+
+package "Экосистема 'Тёплый дом'" {
+    rectangle "Монолитное приложение" as Monolith {
+        rectangle "Управление устройствами" {
+        component "Система отопления" as HeatingSystem
+        component "Мониторинг температуры" as TemperatureMonitoring
+        }
+    }
+    
+    database "PostgreSQL" as DB #lightblue
+}
+
+User --> Monolith : Управляет системой через UI
+Monolith --> Sensor : Управляет отоплением
+Monolith --> DB : Хранит данные
+@enduml
+```
