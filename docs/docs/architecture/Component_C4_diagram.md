@@ -57,7 +57,7 @@ package "Приложение 'Тёплый дом'" {
     rectangle "Поддержка" #line.dotted {
         component "API поддержки" as SupportServiceAPI
         component "Автоматические ответы" as AutoSupport
-        component "Обработка обащения" as SupportProcessing
+        component "Обработка обращения" as SupportProcessing
         component "Редирект обращения" as SupportRedirect
         component "Решение обращения" as SupportResolution
         database "PostgreSQL" as DBSupportService #lightblue
