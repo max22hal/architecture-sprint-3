@@ -88,10 +88,7 @@ pip install plantuml-markdown
 pip install mkdocs_puml
 ```
 
-```markdown
 [Посетите локальный mkdocs сервер](http://127.0.0.1:8000/architecture/Monolith_C4_diagram/)
-```
-
 
 
 # Задание 2. Проектирование микросервисной архитектуры
@@ -109,8 +106,11 @@ pip install mkdocs_puml
 **Диаграмма кода (Code)**
 
 [Посетите локальный mkdocs сервер](http://127.0.0.1:8000/architecture/Code_C4_DevicePlugIn/)
+
 [Посетите локальный mkdocs сервер](http://127.0.0.1:8000/architecture/Code_C4_UserManagement/)
+
 [Посетите локальный mkdocs сервер](http://127.0.0.1:8000/architecture/Code_C4_diagramm_HeatingSystem/)
+
 [Посетите локальный mkdocs сервер](http://127.0.0.1:8000/architecture/Code_C4_diagramm_SupportAutoResponse/)
 
 # Задание 3. Разработка ER-диаграммы
